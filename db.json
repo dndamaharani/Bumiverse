@@ -1,0 +1,157 @@
+{
+    "edukasi": [
+      {
+        "id": 1,
+        "title": "Mengelola Sampah Rumah Tangga",
+        "description": "Pelajari cara mengelola sampah di rumah dengan metode 3R (Reduce, Reuse, Recycle).",
+        "icon": "♻️",
+        "category": "Sampah"
+      },
+      {
+        "id": 2,
+        "title": "Penghematan Energi Sehari-hari",
+        "description": "Tips menghemat energi di rumah seperti mematikan lampu saat tidak digunakan.",
+        "icon": "💡",
+        "category": "Energi"
+      },
+      {
+        "id": 3,
+        "title": "Menanam di Pekarangan",
+        "description": "Manfaat dan cara mudah menanam tanaman di rumah untuk mendukung lingkungan hijau.",
+        "icon": "🌱",
+        "category": "Tanaman"
+      },
+      {
+        "id": 4,
+        "title": "Mengurangi Penggunaan Plastik",
+        "description": "Gunakan tas kain, botol minum isi ulang, dan wadah makanan untuk mengurangi sampah plastik.",
+        "icon": "🚫🛍️",
+        "category": "Sampah"
+      },
+      {
+        "id": 5,
+        "title": "Transportasi Ramah Lingkungan",
+        "description": "Kurangi penggunaan kendaraan pribadi dengan naik transportasi umum atau bersepeda.",
+        "icon": "🚲",
+        "category": "Transportasi"
+      },
+      {
+        "id": 6,
+        "title": "Hemat Air di Rumah",
+        "description": "Matikan keran saat tidak digunakan dan gunakan air secara bijak dalam kehidupan sehari-hari.",
+        "icon": "💧",
+        "category": "Air"
+      },
+      {
+        "id": 7,
+        "title": "Belanja Secara Berkelanjutan",
+        "description": "Pilih produk lokal, organik, dan ramah lingkungan untuk mendukung ekonomi hijau.",
+        "icon": "🛒🌾",
+        "category": "Konsumsi"
+      },
+      {
+        "id": 8,
+        "title": "Membuat Kompos Sendiri",
+        "description": "Ubah sisa makanan dan sampah organik menjadi kompos untuk menyuburkan tanah.",
+        "icon": "🌿🍂",
+        "category": "Sampah"
+      },
+      {
+        "id": 9,
+        "title": "Mengurangi Emisi Digital",
+        "description": "Kurangi penggunaan data berlebih dan matikan perangkat saat tidak digunakan untuk mengurangi emisi karbon digital.",
+        "icon": "📵💻",
+        "category": "Energi"
+      },
+      {
+        "id": 10,
+        "title": "Menjadi Konsumen Bijak",
+        "description": "Beli hanya yang dibutuhkan, hindari fast fashion, dan dukung brand yang bertanggung jawab terhadap lingkungan.",
+        "icon": "🛍️🌍",
+        "category": "Konsumsi"
+      }
+    ],
+    "artikel": [
+      {
+        "id": 1,
+        "title": "Mengelola Sampah Rumah Tangga",
+        "summary": "Pelajari cara mengelola sampah rumah tangga dengan metode 3R.",
+        "imageUrl": "/images/sampah-rumah.jpg",
+        "content": "Detail tentang pengelolaan sampah rumah tangga secara efektif...",
+        "category": "Sampah"
+      },
+      {
+        "id": 2,
+        "title": "Penghematan Energi Sehari-hari",
+        "summary": "Tips menghemat energi di rumah seperti mematikan lampu saat tidak digunakan.",
+        "imageUrl": "/images/hemat-energi.jpg",
+        "content": "Cara-cara sederhana untuk menghemat energi di rumah...",
+        "category": "Energi"
+      },
+      {
+        "id": 3,
+        "title": "Menanam di Pekarangan",
+        "summary": "Manfaat dan cara mudah menanam tanaman di rumah.",
+        "imageUrl": "/images/pekarangan.jpg",
+        "content": "Panduan praktis untuk berkebun di pekarangan rumah...",
+        "category": "Berkebun"
+      },
+      {
+        "id": 4,
+        "title": "Mengurangi Penggunaan Plastik",
+        "summary": "Gunakan tas kain dan wadah isi ulang untuk mengurangi sampah plastik.",
+        "imageUrl": "/images/kurangi-plastik.jpg",
+        "content": "Langkah-langkah mengurangi ketergantungan pada plastik sekali pakai...",
+        "category": "Sampah"
+      },
+      {
+        "id": 5,
+        "title": "Transportasi Ramah Lingkungan",
+        "summary": "Naik sepeda atau transportasi umum bisa bantu kurangi emisi karbon.",
+        "imageUrl": "/images/sepeda.jpg",
+        "content": "Manfaat dan pilihan transportasi ramah lingkungan...",
+        "category": "Transportasi"
+      },
+      {
+        "id": 6,
+        "title": "Hemat Air di Rumah",
+        "summary": "Matikan keran saat tidak digunakan dan hindari pemborosan air.",
+        "imageUrl": "/images/hemat-air.jpg",
+        "content": "Cara mengurangi pemborosan air di rumah secara efektif...",
+        "category": "Air"
+      },
+      {
+        "id": 7,
+        "title": "Belanja Secara Berkelanjutan",
+        "summary": "Pilih produk lokal dan ramah lingkungan untuk masa depan hijau.",
+        "imageUrl": "/images/belanja-hijau.jpg",
+        "content": "Panduan menjadi konsumen sadar lingkungan saat berbelanja...",
+        "category": "Gaya Hidup"
+      },
+      {
+        "id": 8,
+        "title": "Membuat Kompos Sendiri",
+        "summary": "Ubah sisa makanan dan sampah organik jadi kompos alami.",
+        "imageUrl": "/images/kompos.jpg",
+        "content": "Langkah-langkah membuat kompos di rumah untuk pupuk alami...",
+        "category": "Pertanian"
+      },
+      {
+        "id": 9,
+        "title": "Mengurangi Emisi Digital",
+        "summary": "Gunakan internet secara bijak untuk bantu kurangi jejak karbon.",
+        "imageUrl": "/images/emisi-digital.jpg",
+        "content": "Tips efisiensi digital dalam mendukung lingkungan...",
+        "category": "Energi"
+      },
+      {
+        "id": 10,
+        "title": "Menjadi Konsumen Bijak",
+        "summary": "Beli hanya yang dibutuhkan dan dukung brand yang ramah lingkungan.",
+        "imageUrl": "/images/konsumen.jpg",
+        "content": "Cara memilih produk dan gaya hidup ramah lingkungan...",
+        "category": "Gaya Hidup"
+      }
+    ]
+  }
+  

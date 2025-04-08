@@ -1,39 +1,54 @@
-# 🌍 Bumiverse
-Hijau Bumi adalah platform digital yang mengajak masyarakat untuk menjalani gaya hidup berkelanjutan melalui edukasi, aksi nyata, dan sistem penghargaan. Platform ini hadir sebagai ruang untuk belajar, bertindak, dan merayakan kontribusi hijau bersama.
+# React + TypeScript + Vite
 
-# 🔍 Fitur Utama
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🎓 Edukasi & Artikel Lingkungan
-- Beragam topik edukasi seputar pelestarian alam seperti pengelolaan sampah, energi terbarukan, dan gaya hidup hijau.
-  📚 Dilengkapi artikel, infografis, serta halaman detail per topik.
+Currently, two official plugins are available:
 
-🌱 Aksi Ramah Lingkungan & Poin
-- Pengguna dapat mencatat aksi hijau sehari-hari seperti daur ulang, hemat energi, hingga berkebun.
-  ✔️ Aksi yang dicatat akan menambah poin pengguna sebagai bentuk penghargaan.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🧭 Kategori Aksi Hijau
-- Jelajahi berbagai aksi yang terbagi ke dalam kategori seperti:
-  🚲 Transportasi hijau, 🌾 Pertanian ramah lingkungan, 💧 Penghematan air, dan banyak lagi!
+## Expanding the ESLint configuration
 
-🏆 Gamifikasi & Komitmen Hijau
-- Pengguna didorong untuk konsisten beraksi melalui sistem poin dan badge.
-  📈 Riwayat aksi dan hijau-meter melacak perkembangan kontribusi pengguna.
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-📖 Artikel Terbaru & Inspiratif
-- Temukan artikel terbaru tentang inovasi hijau, cerita komunitas, dan tips sederhana menjaga lingkungan.
-  🔍 Dilengkapi fitur pencarian dan filter untuk akses yang mudah.
+```js
+export default tseslint.config({
+  extends: [
+    // Remove ...tseslint.configs.recommended and replace with this
+    ...tseslint.configs.recommendedTypeChecked,
+    // Alternatively, use this for stricter rules
+    ...tseslint.configs.strictTypeChecked,
+    // Optionally, add this for stylistic rules
+    ...tseslint.configs.stylisticTypeChecked,
+  ],
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
+```
 
-# ⚙️ Tech Stack
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-⚡ Vite + React.js
-Menggunakan Vite sebagai bundler ultra-cepat untuk pengembangan modern, dipadukan dengan React.js sebagai library utama dalam membangun antarmuka pengguna yang interaktif dan berbasis komponen.
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-🎨 Tailwind CSS
-Styling instan dan konsisten menggunakan utility-first framework Tailwind CSS.
-🚀 Responsif, efisien, dan sangat fleksibel dalam membuat tampilan antarmuka modern.
-
-🧠 TypeScript
-Menambahkan keamanan tipe data dan kemudahan dalam pengembangan skala besar dengan TypeScript.
-🧩 Membantu menjaga struktur kode tetap rapi dan mudah dikelola.
-
-
+export default tseslint.config({
+  plugins: {
+    // Add the react-x and react-dom plugins
+    'react-x': reactX,
+    'react-dom': reactDom,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended typescript rules
+    ...reactX.configs['recommended-typescript'].rules,
+    ...reactDom.configs.recommended.rules,
+  },
+})
+```
