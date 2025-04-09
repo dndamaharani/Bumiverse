@@ -1,54 +1,31 @@
-# React + TypeScript + Vite
+# 🌱 Bumiverse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Bumiverse** adalah platform edukatif dan interaktif yang mendorong masyarakat untuk melakukan aksi ramah lingkungan melalui artikel, edukasi, gamifikasi, dan pelacakan aksi hijau. Tujuan utama proyek ini adalah meningkatkan kesadaran lingkungan dan memberikan cara menyenangkan untuk berkontribusi terhadap keberlanjutan bumi.
 
-Currently, two official plugins are available:
+## 🚀 Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Artikel**: Daftar artikel dengan fitur pencarian dan filter kategori.
+- **Detail Artikel**: Tampilan artikel lengkap dengan komentar, likes/dislikes.
+- **Edukasi**: Topik edukasi ramah lingkungan seperti sampah plastik, energi terbarukan, dll.
+- **Detail Edukasi**: Penjelasan mendalam tiap topik edukasi.
+- **Kategori**: Menampilkan aksi berdasarkan kategori (Berkebun, Sampah, Energi, dll).
+- **Aksi Ramah Lingkungan**: Daftar aksi yang bisa dicatat oleh pengguna.
+- **Gamifikasi**:
+  - Poin aksi
+  - Badge pengguna
+  - Riwayat aksi
+  - Reset aksi
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🧱 Teknologi yang Digunakan
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Vite + React.js**
+- **Tailwind CSS** untuk styling
+- TypeScript
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+##  Cara Menjalankan Proyek
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. Clone repository:
+   ```bash
+   git clone https://github.com/username/bumiverse.git
+   cd bumiverse
